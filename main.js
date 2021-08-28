@@ -8,7 +8,7 @@ const form = document.querySelector('.form'),
 let pageNum = 1 ;
 let inputValue;
 function fetchCinema(value){
-    fetch(`http://www.omdbapi.com/?apikey=f81c2d07&s=${value}&page=${pageNum}`)
+    fetch(`https://www.omdbapi.com/?apikey=f81c2d07&s=${value}&page=${pageNum}`)
     .then(response=>response.json())
     .then(data=>{
         cinemaList.innerHTML = '';
