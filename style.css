@@ -5,14 +5,44 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
 }
 .container{
     max-width: 1140px;
+    padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
 }
 .headr{
     padding: 100px;
+}
+.form{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+}
+.input{
+    border-radius:20px;
+    border: 2px solid #EA7C69;
+    outline: none;
+    background-color:transparent;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 16px;
+
+    font-weight: 700;
+}
+.submit-btn{
+    border-radius:20px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: #EA7C69;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 20px;
 }
 .cinema-list{
     list-style: none;
@@ -23,13 +53,13 @@ body{
 }
 .cinema-list__item{
     border-radius: 10px;
-    background-color: green;
+    background-color: #EA7C69;
     padding: 7px;
     margin-top: 10px;
     cursor: pointer;
 }
 .cinema-list__item-img{
-  
+    height: 280px;
     border: 2px solid blueviolet;
     display: block;
     border-radius:inherit
@@ -37,6 +67,42 @@ body{
 }
 .cinema-list__item-img,.cinema-list__item-heading{
     width: 200px;
+}
+.cinema-list__item-heading{
+    color: #fff;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.cinema-list__item-year{
+    margin: 5px 0;
+    display: block;
+    font-weight: 700;
+}
+.page-btns{
+    display: flex;
+    overflow-x: auto;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.page-btns::-webkit-scrollbar{
+    height: 5px;
+}
+.page-btns::-webkit-scrollbar-thumb{
+    background-color: #EA7C69;
+}
+.page-btns::-webkit-scrollbar-track{
+    background-color: transparent;
+    border-radius:50px;
+}
+.page-btn{
+    border-radius:5px;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
 }
 @media only screen and (max-width:750px){
     .container{

@@ -53,7 +53,8 @@ form.addEventListener('submit',(evt)=>{
 function createbtns(value){
     let allPages = Math.ceil(Number(value.totalResults)/10)
     for(i=1;i<=allPages;i++){
-        let btn = document.createElement('button');           
+        let btn = document.createElement('button');  
+        btn.className = 'page-btn'         
         btn.dataset.id = i;
         btn.textContent = i;
         pageNum = Number(btn.dataset.id)
