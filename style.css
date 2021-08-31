@@ -154,7 +154,7 @@ body{
     }
     .cinema-list__item-img,.cinema-list__item-heading{
         width: 200px;
-        height: 200px;
+        height: 280px;
     }
     .cinema-list__item-heading{
     font-size: 22px;
