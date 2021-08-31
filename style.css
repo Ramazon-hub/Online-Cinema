@@ -135,6 +135,19 @@ body{
 @media only screen and (max-width:500px){
     .container{
         max-width: 300px;
+
+    }
+   .form{
+       width: 300px;
+   }
+    .input{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .submit-btn{
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-size: 14px;
     }
     .cinema-list{
         justify-content: center;
@@ -146,5 +159,8 @@ body{
     .cinema-list__item-heading{
     font-size: 22px;
 
+    }
+    .page-btns{
+        width: 205px;
     }
 }
