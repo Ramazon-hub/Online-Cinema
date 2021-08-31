@@ -151,10 +151,11 @@ body{
     }
     .cinema-list{
         justify-content: center;
+        align-items: flex-start;
     }
     .cinema-list__item-img,.cinema-list__item-heading{
         width: 200px;
-        height: 280px;
+        height: auto;
     }
     .cinema-list__item-heading{
     font-size: 22px;
